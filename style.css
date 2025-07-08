@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+
+html{
+    font-family: "Nothing Font (5x7)", Roboto, sans-serif;
+    font-size: xx-large;
+    color: white;
+    text-align: center;
+}
+
+body{
+    background-color: rgb(13,13,20);
+    position: relative;
+    background-image: url(abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner.jpg);
+    width: 100vw;
+    height: 100vh;
+}
+
+
+main{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transform: translateY(250px);
+    font-size: 2rem;
+    
+}
+
+section{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 50px;
+}
+
+.section-challenges a:link{
+    color: white;
+    text-decoration: none;
+
+}
+
+.section-challenges a:visted{
+    color: white;
+    text-decoration: none;
+}
+
+.section-challenges a:hover{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-shadow: -15px 15px 15px rgb(255, 255, 255), 3px -5px 50px rgb(255, 255, 255);
+    
+}
+
+.section-challenges a:active{
+
+     color: white;
+    text-decoration: none;
+    
+    
+}
+
+
+
+.anchor-challenge{
+    color: rgb(255, 255, 255);
+    
+    text-shadow: -15px 15px 15px rgb(122, 120, 120), 3px -5px 50px rgb(0, 0,0);
+  
+}

@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.checkerboard{
+    display: flex;
+    flex-wrap: wrap;
+    width: 810px;
+    height: 810px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    padding: -10px;
+    flex-shrink: 0;
+}
+
+.black{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+}
+
+.white{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+}
+
+@media (max-width:(810px)){
+
+    .black{
+        width: 100%;
+        height: auto;
+    }
+    .white{
+        width: 100%;
+        height: auto;
+    }
+
+}
